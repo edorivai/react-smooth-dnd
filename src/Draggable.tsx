@@ -6,6 +6,7 @@ const {
 } = constants;
 
 export interface DraggableProps {
+	children: React.ReactNode;
 	render?: () => React.ReactElement;
 	className?: string;
 }

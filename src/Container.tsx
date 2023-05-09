@@ -7,6 +7,7 @@ container.dropHandler = dropHandlers.reactDropHandler().handler;
 container.wrapChild = false;
 
 interface ContainerProps extends ContainerOptions {
+	children: React.ReactNode;
 	render?: (rootRef: React.RefObject<any>) => React.ReactElement;
 	style?: CSSProperties;
 }
